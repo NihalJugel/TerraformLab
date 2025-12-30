@@ -1,0 +1,9 @@
+Queries AWS for the most recent Ubuntu 22.04 AMI
+
+Filters AMIs based on:
+
+Official Ubuntu naming convention
+
+HVM virtualization type
+
+Canonical’s AWS account (official owner)

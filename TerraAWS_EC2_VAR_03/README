@@ -1,0 +1,19 @@
+Terraform – Parameterized AWS EC2 Ubuntu Deployment (Dove)
+📌 Overview
+
+This Terraform project provisions an Ubuntu 22.04 EC2 instance on AWS using parameterized configuration.
+It is designed for multi-region reusability, allowing controlled AMI selection via variables while maintaining infrastructure consistency.
+
+🏗️ Resources Created
+
+✅ EC2 Instance (t3.micro)
+
+✅ EC2 Instance State enforcement (running)
+
+✅ Key Pair for SSH access
+
+✅ Security Group with ingress & egress rules
+
+✅ Parameterized AWS Provider
+
+✅ Outputs for AMI reference

@@ -1,0 +1,20 @@
+📌 Overview
+
+This Terraform project provisions an Ubuntu 22.04 LTS EC2 instance on AWS with the required key pair, security group, and instance state management.
+The setup dynamically fetches the latest Ubuntu AMI, applies security best practices, and ensures the instance is always in a running state.
+
+🏗️ Resources Created
+
+This Terraform configuration creates and manages the following AWS resources:
+
+✅ Latest Ubuntu 22.04 LTS AMI (dynamic lookup)
+
+✅ EC2 instance (t3.micro)
+
+✅ Key pair for SSH access
+
+✅ Security group with ingress and egress rules
+
+✅ EC2 instance state enforcement (running)
+
+✅ Outputs for reusability

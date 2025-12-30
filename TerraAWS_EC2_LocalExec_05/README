@@ -1,0 +1,33 @@
+📌 Overview
+
+This Terraform project provisions an Ubuntu-based EC2 instance on AWS and performs end-to-end automation by:
+
+Creating infrastructure (EC2, Security Group, Key Pair)
+
+Configuring the instance as a web server
+
+Executing commands on the remote EC2 instance
+
+Executing commands locally on the Terraform machine
+
+Exposing both public and private IPs as outputs
+
+This configuration demonstrates advanced Terraform provisioner usage.
+
+🏗️ Resources Created
+
+✅ EC2 Instance (t3.micro)
+
+✅ Security Group with HTTP/HTTPS access
+
+✅ SSH Key Pair
+
+✅ EC2 Instance State enforcement
+
+✅ File Provisioner
+
+✅ Remote-Exec Provisioner
+
+✅ Local-Exec Provisioner
+
+✅ Output values (Public & Private IP)

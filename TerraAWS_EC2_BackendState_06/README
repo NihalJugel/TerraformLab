@@ -1,0 +1,35 @@
+Terraform – AWS EC2 Web Server with Remote State (Dove Project)
+📌 Overview
+
+This Terraform project provisions an Ubuntu-based EC2 web server on AWS and configures it using Terraform provisioners.
+The project now includes an Amazon S3 remote backend to store Terraform state centrally, enabling safe collaboration and state consistency.
+
+🏗️ Infrastructure Components
+
+✅ EC2 Instance (t3.micro)
+
+✅ Security Group with HTTP/HTTPS access
+
+✅ SSH Key Pair
+
+✅ Web server configuration via provisioners
+
+✅ EC2 instance state enforcement
+
+✅ Remote Terraform state stored in S3
+
+✅ Outputs for public & private IPs
+
+📂 Project Structure
+.
+├── backend.tf         # S3 remote backend configuration
+├── instance.tf        # EC2 instance + provisioners
+├── web.sh             # Apache web server setup script
+├── secGrp.tf          # Security group rules
+├── keypair.tf         # EC2 key pair
+├── provider.tf        # AWS provider configuration
+├── variables.tf       # Input variables
+├── outputs.tf         # Public & private IP outputs
+├── dovekey            # Private SSH key
+├── dovekey.pub        # Public SSH key
+└── README.md

@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+
+# Keys
+*.pem
+dovekey
+.pub

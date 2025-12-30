@@ -1,0 +1,19 @@
+📌 Overview
+
+This Terraform project provisions an Ubuntu EC2 instance on AWS and configures it as a fully functional Apache web server using Terraform file and remote-exec provisioners.
+
+The deployment installs required packages, downloads a website template, and serves it automatically via Apache.
+
+🏗️ Resources Created
+
+✅ EC2 Instance (t3.micro)
+
+✅ Security Group with HTTP/HTTPS access
+
+✅ EC2 Key Pair
+
+✅ Instance State enforcement
+
+✅ File & Remote Exec provisioners
+
+✅ Apache Web Server with static website
